@@ -4,9 +4,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import '@/assets/styles/main.css'
-import AppButton from './components/AppButton'
+import BaseButton from './components/BaseButton'
 
-Vue.component('AppButton', AppButton)
+Vue.component('BaseButton', BaseButton)
 
 Vue.config.productionTip = false
 
